@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Tree</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/tree.css">
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <div class="buttons-container bst-actions-container">
+
+                <div class="btn-group">
+                    <button id="heightTreeBtn" class="btn btn-primary">
+                        Height of tree
+                    </button>
+                    <button id="insertBtn" class="btn btn-warning">
+                        Insert Node
+                    </button>
+                    <button id="removeElementBtn" class="btn btn-dark">
+                        Remove Node
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button id="searchBtn" class="btn btn-primary">Search</button>
+                    <button id="minValueBtn" class="btn btn-warning">
+                        Min Value
+                    </button>
+                    <button id="maxValueBtn" class="btn btn-dark">Max Value</button>
+                </div>
+                <div class="btn-group">
+                    <button id="inOrderTravBtn" class="btn btn-primary">
+                        In Order Traversal
+                    </button>
+                    <button id="postOrderTravBtn" class="btn btn-warning">
+                        Post Order Traversal
+                    </button>
+                    <button id="preOrderTravBtn" class="btn btn-dark">
+                        Pre Order Traversal
+                    </button>
+                </div>
+                <div class="btn-group">
+                    <button id="resetBtn" class="btn btn-danger">
+                        Delete Tree
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="app-container">
+                <h1>JavaScript Binary Search Tree</h1>
+                <div class="tree">
+
+                    <div class="node node--root"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="./dist/main.js"></script>
+
+</html>
